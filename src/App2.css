@@ -1,0 +1,124 @@
+.newsBox {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+
+    height: auto;
+    width: 800px;
+    color: white;
+    background-color: lightgrey;
+    border: 2px solid grey;
+    border-radius: 1em 1em 1em 1em;
+  
+    margin: 20px auto;
+    padding: 2em;
+    background-image: url("./Kong.jpg");
+  }
+
+  .menuContainer{
+      display:flex;
+      flex-direction:row;
+      justify-content: space-around;
+  }
+  
+  .newsluisBox {
+    height: 1600px;
+    width: 800px;
+    color: white;
+    background-color: lightgrey;
+    border: 2px solid grey;
+    border-radius: 1em 1em 1em 1em;
+  
+    margin: 20px, auto;
+    padding: 2em;
+  }
+  
+  .newsAddBox {
+    height: 1600px;
+    width: 800px;
+    color: white;
+    background-color: lightgrey;
+    border: 2px solid grey;
+    border-radius: 1em 1em 1em 1em;
+  
+    margin: 20px auto;
+    padding: 2em;
+  }
+  
+  button {
+    background-color: lightgrey;
+    border: ;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  a:link {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:visited {
+    text-decoration: none;
+    color: inherit;
+  }
+  
+  a:hover {
+    text-decoration: underline;
+    color: inherit;
+  }
+  
+  a:active {
+    text-decoration: underline;
+    color: inherit;
+  }
+  
+  input {
+    height: 35px;
+    width: 740px;
+  }
+  
+  .App {
+    background-image: url("./Kong.jpg");
+    /*height: auto ;*/
+    /*min-height: 40vh;*/
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+    /*margin-bottom: 200px;*/
+    /*width: 100%;*/
+  }
+  
+  .Head {
+    text-align: center;
+    font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+    color: white;
+    border-color: white;
+    border: 2px;
+  }
+
+  .App-header {
+    /*background-color: #282c34;*/
+    /*min-height: 5vh;*/ 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: calc(2px + 2vmin);
+    color: white;
+    width:100%;
+  }
+
+  button {
+      border-radius: 7px;
+  }
+
+  li{
+    list-style: none;
+    list-style-type: circle;
+  }
