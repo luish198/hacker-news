@@ -42,9 +42,9 @@ export default function News({ search }) {
         <div>
           {newsStoriesLuis.map((story) => (
             <ul>
-              <li>{story.specialNews}</li>
-              <li>{story.email}</li>
-              <li>{story.message}</li>
+              <li key={story.id}>{story.specialNews}</li>
+              <li key={story.id}>{story.email}</li>
+              <li key={story.id}>{story.message}</li>
             </ul>
           ))}
         </div>

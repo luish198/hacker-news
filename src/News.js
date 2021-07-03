@@ -41,10 +41,10 @@ export default function News({ search }) {
                 <div className="newsContainer">
                     {newsStories.map((story) => (
                         <ul>
-                            <li>Title: {story.title}</li>
-                            <li>Autor: {story.author}</li>
-                            <li>
-                                <a href={story.url} target="_blank">Read More...</a>
+                            <li key={story.id}>Title: {story.title}</li>
+                            <li key={story.id}>Autor: {story.author}</li>
+                            <li key={story.id}>
+                                <a href={story.url} rel="noreferrer" target="_blank">Read More...</a>
                             </li>
                         </ul>
                     ))}

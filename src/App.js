@@ -1,12 +1,12 @@
 //import logo from './logo.svg';
 //import "./App.css";
 import "./App2.css";
-import { useEffect, useState } from "react";
+import { useState } from "react";
 import News from "./News";
 import NewsLuis from "./OurNews";
 import NewsAdd from "./NewsAdd";
 
-import { BrowserRouter as Router, Switch, Route, Link } from "react-router-dom";
+import { Switch, Route, Link } from "react-router-dom";
 
 function App() {
   const [search, setSearch] = useState("");
@@ -29,7 +29,7 @@ function App() {
               onChange={(e) => setSearch(e.target.value)}
             />
             <br />
-            <container className="menuContainer">
+            <div className="menuContainer">
 
               <button>
                 <Link to="/news">check for News here...</Link>{" "}
@@ -41,7 +41,7 @@ function App() {
                 <Link to="/newsAdd">Add your News here...</Link>{" "}
               </button>
 
-            </container>
+            </div>
 
             <br />
           </Route>
